@@ -1,0 +1,21 @@
+@media (max-width: 995px) {
+    #home-Img {
+        margin-top: 70px;
+    }
+    #home-P {
+        font-size: 17px;
+    }
+}
+@media(max-width: 440px) {
+    #home-Head {
+        font-size: 50px;
+    }
+    #home-P {
+        font-size: 14px;
+    }
+}
+@media(max-width: 370px) {
+    #home-Head {
+    font-size: 40px;
+}
+}

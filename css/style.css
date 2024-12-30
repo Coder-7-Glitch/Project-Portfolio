@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --btn-text-color: #fff;
+    --primary-btn-bg-color: #286F6C;
+    --About-Us-bg-color: #F1544B;
+    --secondary-btn-color: #F58A83;
+    --text-color: #BAB9B9;
+    --hover-color: #000;
+}
+
+/* Navbar */
+nav {
+    background: #FDF3F3;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#nav-text {
+    color: var(--text-color);
+}
+
+#nav-text:hover {
+    color: var(--hover-color);
+}
+
+#nav-Btn {
+    background: var(--primary-btn-bg-color);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 100px;
+    color: var(--btn-text-color);
+}
+
+#nav-Head {
+    color: var(--primary-btn-bg-color);
+    font-weight: bold;
+    font-family: "Saira Condensed", sans-serif;
+}
+
+/* Home */
+.home-Section {
+    background: #FDF3F3;
+    padding-top: 150px;
+}
+
+#home-Head {
+    font-size: 60px;
+}
+
+#home-P {
+    font-size: 21px;
+    color: var(--text-color);
+}
+
+#home-Btn {
+    background: var(--primary-btn-bg-color);
+    border: none;
+    padding: 10px 80px;
+    border-radius: 100px;
+    color: var(--btn-text-color);
+}
+
+/* About Us */
+#about-P {
+    color: var(--text-color);
+}
+
+/* Services */
+.services-Section {
+    background: #FDF3F3;
+}
+
+#bg-orange {
+    background: var(--About-Us-bg-color);
+    border: none;
+    border-radius: 1rem;
+
+}
+.services-Card {
+    width: 32% !important;
+    margin: auto;
+
+}
+.b-R {
+    border: none;
+    border-radius: 1rem;
+}
+
+.b-R p {
+    color: var(--text-color);
+}
+
+/* Portfolio */
+.portfolio-Section .col-lg-4 img {
+    width: 97%;
+    gap: 30;
+}
+.m-A {
+    padding: 10px 10px;
+    border: 1.5px solid var(--About-Us-bg-color);
+    color: var(--About-Us-bg-color);
+    background: none;
+}
+
+/* Customer Talking */
+.customer-Talking-section {
+    background: #FDF3F3;
+}
+
+.star {
+    color: #FCB017;
+}
+.customer-Talking {
+    width: 32% !important;
+
+}
+/* footer */
+.footer-Section {
+    background: #01142C;
+}
+
+.footer-navlinks a {
+    color: var(--btn-text-color);
+    text-decoration: none;
+}
+
+.c-f {
+    font-size: 17px;
+}
+/* copyright */
+.copyright {
+    background: #01142C;
+    margin-top: 1px;
+}
